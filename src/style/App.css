@@ -1,0 +1,23 @@
+#home {
+  background-image: url("src/assets/home-bg.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  @media (min-width: 1024px) {
+    background-size: 100% auto;
+  }
+
+  /* For smaller devices */
+  background-size: cover;
+}
+
+#product {
+  background-image: url("src/assets/buy-bg.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  @media (min-width: 1024px) {
+    background-size: 100% auto;
+  }
+
+  /* For smaller devices */
+  background-size: cover;
+}
