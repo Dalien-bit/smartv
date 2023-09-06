@@ -21,7 +21,7 @@ export default function Service() {
             <img src={serviceImage} alt="" />
           </div>
         </div>
-        <div className="flex z-10 lg:flex-row mx-20 gap-2 items-center justify-around">
+        <div className="flex z-10 flex-col lg:flex-row mx-20 gap-2 items-center justify-around">
           <ServiceCard serviceTitle={`Affordability`} color={"blue-300"} />
           <ServiceCard
             serviceTitle={`Chemical free pads`}
