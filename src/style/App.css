@@ -11,7 +11,7 @@
 }
 
 #product {
-  background-image: url("src/assets/buy-bg.png");
+  background-image: url("src/assets/buy-background.png");
   background-repeat: no-repeat;
   background-position: start;
   @media (min-width: 1024px) {
