@@ -19,13 +19,12 @@ export default function Service() {
           />
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-around pt-20">
+      <div className="flex flex-col lg:flex-row items-center justify-around pt-20 pl-2">
         <div>
-          <div className="text-5xl w-[500px] font-bold lg:pl-20">
+          <div className="text-5xl md:w-[500px] font-bold lg:pl-20">
             Just a click away from any service.
           </div>
-          <div className="flex flex-row items-center justify-center"></div>
-          <button className="bg-black lg:ml-20  text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl">
+          <button className="bg-black lg:ml-20  text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl mr-2">
             Request Call Back
           </button>
           <button className="bg-black lg:ml-20 text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl">
@@ -44,7 +43,7 @@ function ServiceCard({ serviceTitle, color }) {
   return (
     <>
       <div
-        className={`h-[500px] my-20 hover:my-0 hover:h-[550px]  hover:p-2 hover:transition-all w-full max-w-[400px] bg-${color}  text-white hover:text-black rounded-lg`}
+        className={`h-[550px] my-20 hover:my-0 hover:h-[550px]  hover:p-2 hover:transition-all w-full max-w-[400px] bg-${color}  text-white hover:text-black rounded-lg`}
       >
         <div className="flex flex-col h-full items-center justify-around">
           <div className="text-3xl font-bold pt-5 ">{serviceTitle}</div>
@@ -53,7 +52,7 @@ function ServiceCard({ serviceTitle, color }) {
             src={whySmartVImages[serviceTitle]}
             alt=""
           />
-          <p className="text-xl px-5">{whySmartVContent[serviceTitle]}</p>
+          <p className="text-lg px-5">{whySmartVContent[serviceTitle]}</p>
         </div>
       </div>
     </>
