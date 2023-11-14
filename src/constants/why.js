@@ -1,3 +1,12 @@
+import { environment, affordability, techSavvy, chemicalFree } from "../assets";
+
+export const whySmartVImages = {
+  Affordability: affordability,
+  "Chemical free pads": chemicalFree,
+  "Environment friendly": environment,
+  "Tech savvy": techSavvy,
+};
+
 export const whySmartVContent = {
   Affordability:
     "We can break barriers and eliminate period poverty and ensure that no women ever have to face challenges due to lack of access to sanitary products by the implementation of our smart supply chain",

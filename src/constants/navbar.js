@@ -1,4 +1,4 @@
-export const navigationItems = ["Home", "About", "Service", "Product"];
+export const navigationItems = ["Home", "About", "Service", "The Team"];
 
 
 const videoItem = {

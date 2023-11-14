@@ -1,29 +1,29 @@
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
   return (
     <>
-      <div className="w-full h-[500px] bg-pink-600 mt-20 flex flex-col items-center justify-around px-10 lg:px-64">
+      <div className="w-full h-[500px] bg-pink-600  flex flex-col items-center justify-around px-10 lg:px-64">
         <div className="flex w-full items-center justify-between">
           <div className="flex flex-col text-white hover:cursor-pointer mr-64">
             Follow Us
             <div className="flex gap-2">
               <FaFacebook />
-              <FaTwitter />
+              <FaLinkedin />
               <FaInstagram />
             </div>
           </div>
           <div className="flex flex-col text-white hover:cursor-pointer">
             Phone Us
-            <div>Phone Number</div>
+            <div>+91 79896 77226</div>
           </div>
           <div className="flex flex-col text-white hover:cursor-pointer">
             Email Us
-            <div>Email</div>
+            <div>nikhilsai1010@gmail.com</div>
           </div>
           <div className="flex flex-col text-white hover:cursor-pointer">
             Find Us
-            <div>The Address</div>
+            <div>Visakhapatnam, Andhra Pradesh</div>
           </div>
         </div>
         <div className="w-full h-[0.5px] bg-white hover:cursor-pointer"></div>

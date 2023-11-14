@@ -18,7 +18,7 @@ export default function About() {
   return (
     <>
       <div
-        className={`flex flex-col w-full lg:flex-row items-center justify-start md:justify-center mt-20 bg-pink-600`}
+        className={`flex flex-col w-full lg:flex-row items-center justify-start md:justify-center  bg-pink-600`}
       >
         <div
           ref={domRef}

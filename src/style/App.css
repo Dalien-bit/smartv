@@ -1,5 +1,5 @@
 #home {
-  background-image: url("src/assets/home-bg.png");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/smart-vend.appspot.com/o/home.png?alt=media&token=e338ab82-4ffc-4296-91de-d03cddc74830");
   background-repeat: no-repeat;
   background-position: start;
   @media (min-width: 1024px) {
@@ -11,13 +11,5 @@
 }
 
 #product {
-  background-image: url("src/assets/buy-background.png");
-  background-repeat: no-repeat;
-  background-position: start;
-  @media (min-width: 1024px) {
-    background-size: 100% auto;
-  }
-
-  /* For smaller devices */
-  background-size: cover;
+  /* background-image: url("src/assets/buy-background.png"); */
 }
