@@ -23,10 +23,10 @@ export default function About() {
         <div
           ref={domRef}
           className={`
-          fade-in-section ${isVisible ? `is-visible` : ``}
-          lg:w-1/2 flex m-auto px-20 pb-10 h-[800px] items-center`}
+          md:fade-in-section ${isVisible ? `is-visible` : ``}
+          lg:w-1/2 flex m-auto md:px-20 px-5 pb-10 h-[800px] items-center`}
         >
-          <p className="text-lg text-white">
+          <p className="text-lg text-white mt-20 text-center">
             <span className="text-5xl font-bold">About Us</span>
             <br />
             <br />
@@ -35,9 +35,9 @@ export default function About() {
         </div>
         <div
           ref={domRef}
-          className={`fade-in-image ${
+          className={`md:fade-in-image ${
             isVisible ? `is-visible` : ``
-          } md:w-1/2 h-[800px] w-full flex flex-col items-center justify-center`}
+          } md:w-1/2 md:h-[800px] h-[500px] w-full flex flex-col items-center justify-center`}
         >
           <img src={aboutImage} alt="" />
         </div>

@@ -21,15 +21,17 @@ export default function Service() {
       </div>
       <div className="flex flex-col lg:flex-row items-center justify-around pt-20 pl-2">
         <div>
-          <div className="text-5xl md:w-[500px] font-bold lg:pl-20">
+          <div className="text-5xl md:w-[500px] text-center font-bold lg:pl-20">
             Just a click away from any service.
           </div>
-          <button className="bg-black lg:ml-20  text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl mr-2">
-            Request Call Back
-          </button>
-          <button className="bg-black lg:ml-20 text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl">
-            Buy Now
-          </button>
+          <div className="flex flex-row items-center justify-center">
+            <button className="bg-black lg:ml-20  text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl mr-2">
+              Request Call Back
+            </button>
+            <button className="bg-black lg:ml-20 text-white text-lg hover:bg-pink-800 py-2 px-4 mt-10 rounded-xl">
+              Buy Now
+            </button>
+          </div>
         </div>
         <div>
           <img src={serviceImage} alt="" />
@@ -43,7 +45,7 @@ function ServiceCard({ serviceTitle, color }) {
   return (
     <>
       <div
-        className={`h-[550px] my-20 hover:my-0 hover:h-[550px]  hover:p-2 hover:transition-all w-full max-w-[400px] bg-${color}  text-white hover:text-black rounded-lg`}
+        className={`h-[550px] my-20 hover:my-0 hover:h-[550px]  hover:p-2 hover:transition-all w-full max-w-[400px] bg-${color} text-center px-1 text-white hover:text-black rounded-lg`}
       >
         <div className="flex flex-col h-full items-center justify-around">
           <div className="text-3xl font-bold pt-5 ">{serviceTitle}</div>
